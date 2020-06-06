@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/BlazorTest/BlazorServer/BlazorServer.csproj",
+      "projectUniqueName": "/workspaces/BlazorServerTest/BlazorServer/BlazorServer.csproj",
       "projectName": "BlazorServer",
-      "projectPath": "/workspaces/BlazorTest/BlazorServer/BlazorServer.csproj",
+      "projectPath": "/workspaces/BlazorServerTest/BlazorServer/BlazorServer.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/workspaces/BlazorTest/BlazorServer/obj/",
+      "outputPath": "/workspaces/BlazorServerTest/BlazorServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
