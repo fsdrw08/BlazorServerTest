@@ -1,3 +1,16 @@
+deploy:
+1. docker build (build a image with code)
+docker build -t blazorserver .
+
+2. docker save (export the image to tar file)
+docker save fbee98d14d1a -o blazorserver.tar
+
+3. scp (transfer image to server)
+scp .\blazorserver.tar credential@server-ip:/path
+
+4. docker run (run in background, map local 8080 port to container's 80 port, name container to blazorserver, use imagee fbee98d14d1a)
+docker run -d --rm -p 8080:80 --name blazorserver fbee98d14d1a
+
 # C# (.NET Core 3.1)
 
 ## Summary

@@ -1,5 +1,5 @@
 {
-  "FilePath": "/workspaces/BlazorServerTest/BlazorServer/BlazorServer.csproj",
+  "FilePath": "/workspaces/BlazorTest/BlazorServer/BlazorServer.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -21075,58 +21075,58 @@
   "RootNamespace": "BlazorServer",
   "Documents": [
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/App.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/Counter.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/Unlock.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/Unlock.razor",
       "TargetPath": "Pages\\Unlock.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/Error.razor",
-      "TargetPath": "Pages\\Error.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Shared/NavMenu.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Pages/Index.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/Error.razor",
+      "TargetPath": "Pages\\Error.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/workspaces/BlazorServerTest/BlazorServer/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
+      "FilePath": "/workspaces/BlazorTest/BlazorServer/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     }
   ],
