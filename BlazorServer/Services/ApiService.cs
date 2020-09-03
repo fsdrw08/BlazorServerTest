@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using BlazorServer.Data.UnlockAccount;
+using BlazorServer.Data;
 
 namespace BlazorServer.Services
 {
@@ -31,8 +31,14 @@ namespace BlazorServer.Services
             var response = await _httpClient.PostAsync(uri, httpContent);
             //response.EnsureSuccessStatusCode();
 
-            using var responseStream = await response.Content.ReadAsStreamAsync();
+            if (response.IsSuccessStatusCode)
+            {
+            var responseStream = await response.Content.ReadAsStreamAsync();
+            UnlockRespond unlockRespond = JsonSerializer.DeserializeAsync<UnlockRespond>(response.);
+            Console.WriteLine(responseStream);
             return await JsonSerializer.DeserializeAsync<HttpResponseMessage>(responseStream);
+            }
+            return null;
         }
 
     }

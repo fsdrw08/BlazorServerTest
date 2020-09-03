@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace BlazorServer.Data.UnlockAccount
+namespace BlazorServer.Data
 {
     public class Extra_vars
     {
